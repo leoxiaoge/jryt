@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/ux_1477365755_1.1/iconfont.eot'); /* IE9*/
+    src: url('../fonts/ux_1477365755_1.1/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/ux_1477365755_1.1/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/ux_1477365755_1.1/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/ux_1477365755_1.1/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.fixt{
+    position: fixed;
+    background-color: #fff;
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+}
+#header nav{
+    background-color: transparent;
+    border:none;
+    height: 80px;
+}
+#header nav .navbar-right li{
+
+}
+#header nav .navbar-brand{
+    padding: 0px;
+}
+#header nav .navbar-right li a{
+    color: #fff;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+#header nav .navbar-right li.active a{
+    background-color: transparent;
+    border-bottom: 3px red solid;
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.mian{
+    font-family: '宋体';
+}
+.mian > .container > h1{
+    font-size: 46px ;
+    color: #575757;
+    padding: 80px 0px 20px 0px;
+}
+.mian > .container > h3{
+    font-size: 20px;
+    color: #7a7a7a;
+}
+.mian > .container > .row > div > h4 i{
+    font-size: 35px;
+    color: #fff;
+    line-height: 86px;
+}
+.mian > .container > .row > div{
+    margin-top: 50px;
+}
+.mian > .container > .row > div > h4{
+    height: 86px;
+    width: 86px;
+    background-color: #2aaf67;
+    border-radius: 50%;
+    margin: auto;
+}
+.mian > .container > .row > div p{
+    font-size: 16px;
+    color: #818892;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+
+#hw-tese > .container > .row i{
+    font-size: 50px;
+}
+#hw-tese > .container > .row .media h4{
+    width: 90%;
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+
+#hw-date .price-box{
+    border: 2px solid #6173f4;
+    position: relative;
+    padding:30px;
+}
+#hw-date .price-box > .price-title{
+    position: absolute;
+    top:-20px;
+    left: 50%;
+    margin-left: -40px;
+    padding: 7px 20px;
+    background: #6173f4;
+    color: #fff;
+    border-radius: 4px;
+
+}
+#hw-date .price-box > .price-title:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-top: 10px solid #6173f4;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: -10px;
+
+}
+#hw-date .price-box h5{
+    color: #000;
+    font-weight: bold;
+}
+#hw-date .price-box ul{
+    list-style:none;
+    padding:0px;
+}
+#hw-date .price-box p{
+    margin-bottom:15px;
+}
+
+@media (max-width: 640px) {
+    #header nav{
+        background: #fff;
+
+    }
+    #header nav .navbar-right li a{
+        background: #fff;
+        margin-top: 0px;
+        color: #333;
+    }
+    #header nav .navbar-right li.active a{
+        background: #fff;
+
+
+    }
+}

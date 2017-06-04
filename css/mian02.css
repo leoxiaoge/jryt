@@ -1,0 +1,229 @@
+body{
+    font-family: 微软雅黑;
+}
+html,body{
+    font-size: 20px;
+}
+@media (min-width: 321px) {/*iPhone 6*/
+    html,body{
+        font-size: 24px;
+    }
+}
+@media (min-width: 376px) {/*iPhone 6 plus*/
+    html,body{
+        font-size: 26px;
+    }
+    
+}
+.color-red{
+    color: #e93a57;
+}
+.color-white{
+    color: #fefefe;
+}
+.btn{
+    text-align: center;
+    margin: 2rem 0rem 2rem 12rem;
+}
+.btn a{
+    padding: 0.5rem 1.1rem;
+    background-color: #2c3242;
+    color: #fafafa;
+    font-size: 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.page01{
+    max-width: 32rem;/*rem是CSS3新增的一个相对单位（root em，根em）*/
+    margin: auto;
+}
+.page01 img{
+    width: 100%;
+    display: block;
+    vertical-align: middle; /*清除图片缝隙*/
+    /*vertical-align属性设置一个元素的垂直对齐。*/
+}
+.page01 h1{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #3a3a3a;
+    margin-top: -6rem;
+}
+.page01 h3{
+    font-size: 1rem;
+    text-align: center;
+    color: #3a3a3a;
+    margin-top: 1rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+}
+.mian{
+    max-width: 32rem;
+    margin: auto;
+}
+.mian h1{
+    font-size: 1.5rem;
+    color: #3a3a3a;
+    text-align: center;
+    line-height: 2.15rem;
+}
+.mian .color-red{
+    color: #e93a57;
+}
+.mian h3{
+    text-align: center;
+    font-size: 1rem;
+    color: #3a3a3a;
+    font-weight: normal;
+}
+.mian p{
+    width: 90%;
+    color: #3a3a3a;
+    line-height: 1.1rem;
+    font-size: 0.7rem;
+    margin: auto;
+}
+.page02 ul li{
+    list-style: none;
+    display: inline-block;
+    width: 4.2rem;
+    height: 1.55rem;
+    background-color: #646363;
+    text-align: center;
+    line-height: 1.55rem;
+    margin-left: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.page02 ul li:nth-child(2n){
+    background-color: #df6363;
+}
+.page02 ul li:nth-child(3){
+    background-color: #7ac470;
+}
+.page02 ul li:nth-child(6){
+    background-color: #66c5e4;
+}
+.page02 ul li:nth-child(7){
+    background-color: #ffc001;
+}
+.page02 ul li:nth-child(8){
+    background-color: #7ac470;
+}
+.page02 ul{
+    padding: 0;
+    font-size: 0;
+    margin: auto;
+    width: 12.9rem;
+}
+.page02 ul li a{
+    color: #fafafa;
+    font-size: 0.65rem;
+    text-decoration: none;
+}
+.page03{
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.page03 .title{
+    width: 10.5rem;
+    height: 4.55rem;
+    border: 1px solid #3a3a3a;
+    margin:  0.85rem auto;
+    position: relative;
+}
+.page03 .title h2{
+    font-size: 1.1rem;
+    color: #3a3a3a;
+    position: absolute;
+    padding: 0rem 0.3rem;
+    background-color: #f1f1f1;
+    left: 50%;
+    margin-left: -2.75rem;
+    top: -1.6rem;
+}
+.page03 .title p{
+    text-align: center;
+    margin-top: 1.3rem;
+}
+.page04 h1{
+    font-size: 1.25rem;
+}
+.page04 ul{
+    padding: 0;
+}
+.page04 ul li{
+    list-style: none;
+}
+.page04 ul li a{
+    width: 95%;
+    display: block;
+    margin: auto;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 0.65rem;
+    background-color: #eaeaea;
+    margin-bottom: 0.5rem;
+    text-indent: 0.4rem;
+}
+.page04 ul li:nth-child(2n) a{
+    color: #e93a57;
+}
+.page05{
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.page05 ul{
+    padding: 0;
+    font-size: 0;
+    margin: auto;
+    width: 15rem;
+}
+.page05 ul li {
+    list-style: none;
+    display: inline-block;
+    width: 5.5rem;
+    height: 1.25rem;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 1.55rem;
+    margin-left: 0.925rem;
+    margin-bottom: 0.75rem;
+    border: #3a3a3a 1.5px solid;
+}
+.page05 ul li a{
+    color: #454a58;
+    font-size: 0.65rem;
+    text-decoration: none;
+}
+.page06{
+    max-width: 32rem;/*rem是CSS3新增的一个相对单位（root em，根em）*/
+    margin: auto;
+    background-color: #fef3d1;
+    overflow: hidden;
+}
+.page06 img{
+    width: 100%;
+    display: block;
+    vertical-align: middle; /*清除图片缝隙*/
+    /*vertical-align属性设置一个元素的垂直对齐。*/
+}
+.page06 h3{
+    font-size: 1rem;
+    text-align: center;
+    color: #3a3a3a;
+    margin-top: 1rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+}
+.page07{
+    background-color: #c12d3b;
+    overflow: hidden;
+}
+.page07 p{
+    text-indent:2em;
+}
+
+
+

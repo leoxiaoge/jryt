@@ -1,0 +1,172 @@
+body{
+    font-family: "微软雅黑";
+}
+html,body{
+    font-size: 20px;
+}
+@media (min-width: 321px) {
+    html,body{
+        font-size: 24px;
+    }
+}
+@media (min-width: 376px) {
+    html,body{
+        font-size: 27px;
+    }
+}
+@media (min-width: 415px) {
+    html,body{
+        font-size: 43px;
+    }
+}
+
+/* ========================all公共样式=========================== */
+.btn{
+    margin: 0.5rem auto;
+}
+.btn a{
+    background-color: #de0060;
+    line-height: 2.05rem;
+    width:9.925rem;
+    height:2.05rem;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.1rem;
+
+}
+.all{
+    max-width: 32rem;
+    margin:auto;
+    text-align: center;
+}
+.all h1{
+    font-size: 1.2rem;
+    color: #14798d;
+}
+.all h2{
+    font-size: 0.9rem;
+    color: #ff0000;
+    font-weight:normal;
+}
+.all ul{
+    padding:0;
+    overflow: hidden;
+}
+.all ul li {
+    list-style: none;
+    margin:0.9rem;
+}
+.all ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 0.7rem;
+    color: #ffffff;
+    width:12.85rem;
+
+    line-height:2.05rem;
+    margin:auto;
+    border-radius: 0.1rem;
+}
+/*.all .img{
+    width:16rem;
+    height:10.675rem;
+}*/
+/* ========================/all============================ */
+
+.page1{
+    text-align: center;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.page1 ul li:nth-child(n) a{
+    background: #be1010;
+}
+.page1 ul li:nth-child(2n) a{
+    background: #3874fe;
+}
+.page2{
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+.page2 img{
+    width:16rem;
+    height:100%;
+}
+.page2 h3{
+    font-size: 1.1rem;
+    color: #157a8e;
+}
+.page2 ul li a{
+    background: #d6e2fd;
+    color: #000;
+}
+.page3{
+    background-color: #f4efe9;
+    overflow: hidden;
+}
+.page3 img{
+    width:16rem;
+    height:100%;
+}
+.page3 ul li a{
+    line-height: 1.2rem;
+    padding: 0.5rem 0;
+}
+.page3 ul li:first-child a{
+    background: #62cf38;
+}
+.page3 ul li:nth-child(2n) a{
+    background: #11c8ea;
+}
+.page3 ul li:last-child a{
+    background: #ff8106;
+}
+.page4{
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+.page4 img{
+    width:16rem;
+    height:100%;
+}
+.page4 ul li a{
+    color: #000;
+    line-height: 1.2rem;
+    padding: 0.5rem 0;
+    background-color: #f3f3f3;
+}
+.page5{
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+.page5 ul li a{
+    color: #000;
+    line-height: 1.2rem;
+    padding: 0.5rem 0;
+    background-color: #f3f3f3;
+}
+.page5 img{
+    width:16rem;
+    height:100%;
+}
+.page6{
+    background-color: #f4efe9;
+    overflow: hidden;
+}
+.page6 img{
+    width:16rem;
+    height:100%;
+}
+.page6 ul li{
+
+}
+.page6 ul li a{
+    text-align: left;
+    color: #000;
+    line-height: 1rem;
+    padding: 0.5rem 0 0.5rem 0.7rem;
+    background-color: #f3f3f3;
+    box-shadow: 0px 14px 1px 2px #ededed;
+}
