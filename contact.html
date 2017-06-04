@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>深圳市前海金润银通金融控股有限公司</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/mian.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="lib/html5shiv/html5shiv.min.js"></script>
+      <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="libs/jquery/jquery.min.js"></script>
+
+    <link href="css/12-117.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/12-117.js"></script>
+    <script type="text/javascript" src="js/layer.js"></script>
+    <style type="text/css">
+        #allmap {
+            width: 100%;
+            height: 450px;
+            overflow: hidden;
+            margin: 0;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=A1941b76b1ea4bba24c5866ed3990353"></script>
+
+</head>
+<body onload="init();">
+<!--#header-->
+<header id="header">
+    <!--<div class="container text-center visible-md visible-lg">
+        <div class="row">
+            <div class="col-md-2">
+                <i class="iconfont">&#xe625;</i>
+                <span>手机微金所</span>
+                <img src="images/c_06.jpg" class="c_06">
+                <i class="iconfont">&#xe619;</i>
+            </div>
+            <div class="col-md-4">
+                <i class="iconfont">&#xe612;</i>
+                <span>4006-89-4006（服务时间：9:00~21:00）</span>
+            </div>
+            <div class="col-md-3">
+                <a>常见问题</a>
+                &nbsp;
+                &nbsp;
+                <a>财富登录</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-itcast btn-sm">免费注册</a>
+                &nbsp;
+                &nbsp;
+                <a>登录</a>
+            </div>
+        </div>
+    </div>-->
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="52px"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="nav-list">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="profile.html">公司概况</a></li>
+                    <li><a href="service.html">金融服务</a></li>
+                    <li><a href="exhibition.html">安全保障</a></li>
+                    <li class="active"><a href="contact.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+<section id="banner">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/slide_01_2000x410.jpg" class="img2000_01" alt="">
+                <!--<div class="carousel-caption">
+                    <picture>
+                        <source srcset="images/slide_01_2000x410.jpg" media="(min-width:641px)">
+                        <source srcset="images/slide_01_640x340.jpg" media="(max-width:640px)">
+                        <img src="images/slide_01_2000x410.jpg" alt="">
+                    </picture>
+                </div>-->
+            </div>
+            <div class="item">
+                <img src="images/slide_02_2000x410.jpg" class="img2000_02" alt="">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/slide_03_2000x410.jpg" class="img2000_03" alt="">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+
+<!--/#header-->
+
+
+<div id="hw-tese" class="mian">
+    <div class="container text-center">
+        <span style="color: #b92c28;font-size: 48px">前海金润银通金融控股有限公司</span>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xe66d;</i>
+                    </a>
+                    <div class="media-body text-left">
+                        <h4 class="media-heading">公司简介</h4>
+                        <p>深圳市前海金润银通金润银通控股有限公司，成立于2013年，是经深圳市工商行政管理局批准成立的金融服务公司，公司致力于为个人及企业提供全面的贷款咨询及贷款服务。通过专业贷款方案的设计，一对一的一站式融资服务，成立至今成功为中小企业及个人贷款融资近5亿元人民币。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xe618;</i>
+                    </a>
+                    <div class="media-body text-left">
+                        <h4 class="media-heading">公司作用</h4>
+                        <p>自创立以来，金润银通始终坚持诚信发展，规范运作，坚持市场化经营原则，高度重视团队的服务质量，业务战略规划，资源有效整合以及可持续发展能力的培养。公司与农业银行、建设银行、招商银行、工商银行、邮政储蓄银行、平安银行、民生银行等四十余家银行建立了良好的合作关系，发挥着贷款客户与各个银行之间的桥梁纽带作用。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xf007a;</i>
+                    </a>
+                    <div class="media-body text-left">
+                        <h4 class="media-heading">公司业务</h4>
+                        <p>公司业务主要涉及个人消费贷、企业经营性贷款、各类信用贷款、赎楼、短拆等现金业务以及POS机的销售业务。“周虽旧邦，其命维新”，为了适应并创新于互联网金融时代，金润银通建立了依托于企业微信公众号、网站的互联网平台，建成了完整的金融产品库；打造“金融超市”，实现金融进社区。通过线上、线下的双线发展模式，努力将金润银通发展成为深圳金融服务业的城市名片！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<div id="hw-sj" class="mian">
+    <div class="container text-center">
+        <h1>软件定制与APP推广服务</h1>
+        <h3>专业的项目经理（PMP）和优秀的技术团队，为软件成功保驾护航</h3>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <h4><i class="iconfont">&#xe6de;</i></h4>
+                <h5>金融类</h5>
+                <p>自研发的百亿数据，TB级别的行情中心。全面覆盖股指，期货，期权，大宗商品等金融产品。交易软件支持多终端：Web、Pc，App，微信公众号，Ipad等设备</p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <h4><i class="iconfont">&#xe6de;</i></h4>
+                <h5>金融类</h5>
+                <p>自研发的百亿数据，TB级别的行情中心。全面覆盖股指，期货，期权，大宗商品等金融产品。交易软件支持多终端：Web、Pc，App，微信公众号，Ipad等设备</p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <h4><i class="iconfont">&#xe6de;</i></h4>
+                <h5>金融类</h5>
+                <p>自研发的百亿数据，TB级别的行情中心。全面覆盖股指，期货，期权，大宗商品等金融产品。交易软件支持多终端：Web、Pc，App，微信公众号，Ipad等设备</p>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<div class="mian" id="hw-date">
+    <div class="container text-center">
+        <h1 class="title"><span style="color: #b92c28">深圳总公司地址：</span></h1>
+        <!--<p class="parg">我们提供高可用，覆盖率广的各项数据服务，均以免费形式提供</p>-->
+        <div class="row itcast-hz">
+
+            <div id="allmap"></div>
+
+        </div>
+    </div>
+</div>
+
+<div class="mian" id="hw-date1">
+    <div class="container text-center">
+        <h1 class="title">诚信合作 ／ 迈向双赢</h1>
+        <br>
+        <h1>合作单位</h1>
+
+
+        <div id="bg">
+
+            <div id="box">
+                <div class="picbox">
+                    <ul class="piclist mainlist">
+                        <li><img src="images/bb/11702.jpg" width="220" height="105"  alt=""/></li>
+                        <li><img src="images/bb/11703.jpg" width="220" height="105"  alt=""/></li>
+                        <li><img src="images/bb/11704.jpg" width="220" height="105"  alt=""/></li>
+                        <li><img src="images/bb/11705.jpg" width="220" height="105"  alt=""/></li>
+                        <li><img src="images/bb/11706.jpg" width="220" height="105"  alt=""/></li>
+                        <li><img src="images/bb/11707.jpg" width="220" height="105"  alt=""/></li>
+                        <li><img src="images/bb/11708.jpg" width="220" height="105"  alt=""/></li>
+                        <li><img src="images/bb/11709.jpg" width="220" height="105"  alt=""/></li>
+                    </ul>
+                    <ul class="piclist swaplist"></ul>
+                </div>
+                <div class="og_prev"></div>
+                <div class="og_next"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-16">
+                <h2>深圳总公司查看</h2>
+                <hr />
+                <div class="line"></div>
+
+                <p><i class="iconfont"></i>公司地址:罗湖区深南东路3020号百货大厦东座商住楼10楼1004至1009</p>
+                <p><i class="iconfont"></i>电话:020-81652943</p>
+                <p><i class="iconfont"></i>邮箱:hwybusiness@hewoyi.com.cn</p>
+            </div>
+            <div class="col-md-7">
+                <!--<iframe src="index-map.html" frameborder="0" height="300" scrolling="no" width="100%"></iframe>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--百度分享-->
+<script>
+    window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"0","bdPos":"right","bdTop":"100"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/jquery/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/mian.js"></script>
+<script type="text/javascript">
+    var map;
+    function init() {
+        var lng = 114.124985;
+        var lat = 22.549737;
+        var city = '深圳';
+        var point = initPoint(lng, lat);
+        map = initMap('allmap', point, 60, city);
+        addMarker();
+        addTrace();
+        //alert(Math.random().toFixed(4)*10000)
+    }
+
+    function addTrace() {
+        var points =
+                [
+                    initPoint(114.124985, 22.549737)];
+        //画线样式类
+        var lineSymbol = {
+            strokeColor: "blue",
+            strokeOpacity: 1,
+            strokeWeight: 2,
+            strokeStyle: "dashed"
+        };
+        var size = initSize(50, 30);
+        var startIcon = initIcon('images/daNormal.png', size);
+        var startMarkeroption = markerOption(null, startIcon, null, null, null, null, null, null, '金润银通');
+        var startMarker = initMarker(points[0], startMarkeroption);
+        map.addOverlay(startMarker);
+        startMarker.show();
+        var startInfowindow = initInfowindow('金润银通');
+        var startInfoMethod = (function () {
+            var mk = startMarker;
+            var content = startInfowindow;
+            return function () {
+                mk.openInfoWindow(content);
+            }
+        })();
+        startMarker.addEventListener('click', startInfoMethod);
+        var drivingDirections = new BMap.Polyline(points, lineSymbol); //画线
+        map.addOverlay(drivingDirections);
+        drivingDirections.show();
+        var endIcon = initIcon('images/red.png', size);
+        var endMarkeroption = markerOption(null, endIcon, null, null, null, null, null, null, '金润银通');
+        var endMarker = initMarker(points[points.length - 1], endMarkeroption);
+        map.addOverlay(endMarker);
+        endMarker.show();
+        var endInfowindow = initInfowindow('公司地址：<br>罗湖区深南东路3020号百货大厦东座商住楼10楼1004至1009');
+        var endInfoMethod = (function () {
+            var mk = endMarker;
+            var content = endInfowindow;
+            return function () {
+                mk.openInfoWindow(content);
+            }
+        })();
+        endMarker.addEventListener('click', endInfoMethod);
+    }
+
+    function addMarker() {
+        var points = [initPoint(114.124985, 22.549737)];
+
+        var cssStyle = {
+            border: "none",
+            borderWidth: "0px",
+            backgroundColor: "transparent",
+            color: "white",
+            fontSize: "12px",
+            cursor: "pointer",
+            position: "absolute",
+            top: "-26px",
+            left: "-4px"
+        };
+        var labeloption = labelOption();
+        var size = initSize(50, 30);
+        var icon = initIcon('images/daNormal.png', size)
+        for (var i = 0; i < points.length; i++) {
+            var title = Math.random().toFixed(4) * 10000;
+            var label = initLabel(title, labeloption);
+            label.setStyle(cssStyle); //给label添加样式
+            var markeroption = markerOption(null, icon, null, null, null, null, null, null, title);
+            var marker = initMarker(points[i], markeroption);
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            marker.show();
+            var infowindow = initInfowindow('我的名字是:' + marker.getTitle() + '<br/>' + '我的坐标是: lat=' + marker.getPosition().lat + ',lng=' + marker.getPosition().lng);
+            var infoMethod = (function () {
+                var mk = marker;
+                var content = infowindow;
+                return function () {
+                    mk.openInfoWindow(content);
+                }
+            })();
+            marker.addEventListener('click', infoMethod);
+        }
+
+    }
+
+    /*定义坐标
+     lng: 地理经度(0,180)flaot (有城市时可忽略)
+     lat: 地理纬度(0,90)flaot (有城市时可忽略)
+     */
+    function initPoint(lng, lat) {
+        return new BMap.Point(lng, lat);
+    }
+    /*初始化地图
+     divId: 用来装载地图的容器 可以是Id,也可以是HTML
+     point:坐标 BMap.Point
+     zoom: 地图大小(1,19)整数
+     city: 初始化城市(有经纬度时可忽略)
+     */
+    function initMap(divId, point, zoom, city) {
+        if (!divId) {
+            return null;
+        }
+        if (!point && !city) {
+            return null;
+        }
+        if (!zoom) {
+            zoom = 12;
+        }
+
+        var map = new BMap.Map(divId); //加载地图容器
+        if (point) {
+            map.centerAndZoom(point, zoom); //用坐标初始化地图
+        } else {
+            map.centerAndZoom(city, zoom); //用城市初始化地图
+        }
+        map.addControl(new BMap.NavigationControl({
+            offset: new BMap.Size(22, 23)
+        })); //添加默认缩放平移控件
+        map.addControl(new BMap.ScaleControl()); // 添加默认比例尺控件
+        map.addControl(new BMap.MapTypeControl()); //2D图，卫星图
+        if (city) {
+            map.setCurrentCity(city); //由于有3D图，需要设置城市哦
+        }
+        map.enableScrollWheelZoom(true); //启用滚轮放大缩小
+        return map;
+    }
+
+    /*大小
+     width:水平方向位移 number
+     height:竖直方向位移 number
+     */
+    function initSize(width, height) {
+        return new BMap.Size(width, height);
+    }
+
+    /*Label样式类
+     offset: 偏移量,BMap.Size
+     position: 初始坐标 BMap.Point
+     enableMassClear : 是否调用map.clearOverlay()时被清除 boolean
+     */
+    function labelOption(offset, position, enableMassClear) {
+        if (!offset) {
+            offset = new BMap.Size(5, 1);
+        }
+        if (!enableMassClear) {
+            enableMassClear = true;
+        }
+        if (!position) {
+            var labelOption = {
+                'offset': offset,
+                'enableMassClear': enableMassClear
+            };
+            return labelOption;
+        }
+        var labelOption = {
+            'offset': offset,
+            'position': position,
+            'enableMassClear': enableMassClear
+        };
+        return labelOption;
+    }
+
+    /*定义marker样式Label
+     title : 显示内容
+     labelOption: 样式类
+     */
+    function initLabel(title, labelOption) {
+        if (!title) {
+            title = '';
+        }
+        if (!labelOption) {
+            return new BMap.Label(title);
+        }
+        return new BMap.Label(title, labelOption);
+    }
+
+    /*定义一个图标
+     url:图标对应图片的地址
+     size:显示图标的大小BMap.size
+     */
+    function initIcon(url, size) {
+        if (!url) {
+            return null;
+        }
+        if (!size) {
+            return BMap.Icon(url);
+        }
+        return new BMap.Icon(url, size);
+    }
+
+    /*
+     offset:标注的位置偏移值 BMap.Size
+     icon:标注所用的图标对象 BMap.Icon
+     enableMassClear 是否在调用map.clearOverlays清除此覆盖物，Boolean 默认为true。
+     enableDragging  是否启用拖拽，Boolean 默认为false。
+     enableClicking 是否响应点击事件。Boolean  默认为true。
+     raiseOnDrag 拖拽标注时，标注是否开启离开地图表面效果。Boolean 默认为false。
+     draggingCursor 拖拽标注时的鼠标指针样式。 string 此属性值需遵循CSS的cursor属性规范。
+     title 鼠标移到marker上的显示内容。String
+     shadow  阴影图标。Icon
+     */
+    function markerOption(offset, icon, enableMassClear, enableDragging, enableClicking, raiseOnDrag, draggingCursor, shadow, title) {
+        if (!offset) {
+            offset = new BMap.Size(15, -15);
+        }
+        if (!enableMassClear) {
+            enableMassClear = true;
+        }
+        if (!enableDragging) {
+            enableDragging = false;
+        }
+        if (!enableClicking) {
+            enableClicking = true;
+        }
+        if (!raiseOnDrag) {
+            raiseOnDrag = false;
+        }
+        if (!draggingCursor) { }
+        if (!shadow) { }
+
+        if (!icon) { }
+        if (!title) {
+            title = '';
+        }
+        var markeroption = {
+            'offset': offset,
+            'icon': icon,
+            'enableMassClear': enableMassClear,
+            'enableDragging': enableDragging,
+            'enableClicking': enableClicking,
+            'raiseOnDrag': raiseOnDrag,
+            //'draggingCursor' : draggingCursor,
+            //'shadow' : shadow,
+            'title': title
+        };
+        return markeroption;
+
+    }
+
+    /*
+     *弹窗信息
+     */
+    function initInfowindow(content) {
+        var infowindow = new BMap.InfoWindow(content, {
+            maxWidth: 1000,
+            height: 0,
+            size: new BMap.Size(500, 500),
+            enableMessage: false
+        });
+        return infowindow;
+    }
+
+    /*
+     *定义marker标志
+     point:坐标 BMap.Point
+     markerOption: 初始化marker的类 markerOption
+     */
+    function initMarker(point, markerOption) {
+        if (!point) {
+            return null;
+        }
+        if (!markerOption) {
+            return new BMap.Marker(point);
+        }
+        return new BMap.Marker(point, markerOption);
+    }
+</script>
+</body>
+
+</html>

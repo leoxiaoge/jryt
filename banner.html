@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="libs/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="libs/owl.carousel.2.0.0-beta.2.4/assets/owl.theme.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="banner">
+        <div class="owl-carousel owl-theme">
+            <div><img src="images/banner-2000-01.jpg"></div>
+            <div><img src="images/banner-2000-02.jpg"></div>
+        </div>
+    </div>
+
+
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+
+<script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items:1,//Number显示几个图片，默认是Default: 3
+                loop:true,//无限循环。重复最后一次和第一项循环错觉。
+                autoplay:true,//自动播放
+                autoplayTimeout:1000,//自动播放间隔
+                autoplayHoverPause:true,//鼠标悬停暂停播放
+                nav:true,
+                navText:['<','>']
+            });
+        });
+
+    </script>
+
+</body>
+</html>
+

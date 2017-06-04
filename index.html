@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>深圳市前海金润银通金融控股有限公司</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/mian.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/12-117.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/12-117.js"></script>
+
+    <script type="text/javascript" src="js/js.js"></script>
+    <script>
+        $(function() {
+            // 悬浮窗口
+            $(".yb_conct").hover(function() {
+                $(".yb_conct").css("right", "5px");
+                $(".yb_bar .yb_ercode").css('height', '200px');
+            }, function() {
+                $(".yb_conct").css("right", "-127px");
+                $(".yb_bar .yb_ercode").css('height', '53px');
+            });
+            // 返回顶部
+            $(".yb_top").click(function() {
+                $("html,body").animate({
+                    'scrollTop': '0px'
+                }, 300)
+            });
+        });
+    </script>
+    <style>
+        canvas {
+            z-index: 1;
+            top: 0;
+            position: fixed;
+            pointer-events: none;
+            left: 0;
+        }
+        body{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+<!--#header-->
+<header id="header">
+    <!--<div class="container text-center visible-md visible-lg">
+        <div class="row">
+            <div class="col-md-2">
+                <i class="iconfont">&#xe625;</i>
+                <span>手机微金所</span>
+                <img src="images/c_06.jpg" class="c_06">
+                <i class="iconfont">&#xe619;</i>
+            </div>
+            <div class="col-md-4">
+                <i class="iconfont">&#xe612;</i>
+                <span>4006-89-4006（服务时间：9:00~21:00）</span>
+            </div>
+            <div class="col-md-3">
+                <a>常见问题</a>
+                &nbsp;
+                &nbsp;
+                <a>财富登录</a>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-itcast btn-sm">免费注册</a>
+                &nbsp;
+                &nbsp;
+                <a>登录</a>
+            </div>
+        </div>
+    </div>-->
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="52px" alt="前海金润银通金融控股有限公司"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="nav-list">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">首页</a></li>
+                    <li><a href="profile.html">公司概况</a></li>
+                    <li><a href="service.html">金融服务</a></li>
+                    <li><a href="exhibition.html">安全保障</a></li>
+                    <li><a href="contact.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+<section id="banner">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/slide_01_2000x410.jpg" class="img2000_01" alt="">
+                <!--<div class="carousel-caption">
+                    <picture>
+                        <source srcset="images/slide_01_2000x410.jpg" media="(min-width:641px)">
+                        <source srcset="images/slide_01_640x340.jpg" media="(max-width:640px)">
+                        <img src="images/slide_01_2000x410.jpg" alt="">
+                    </picture>
+                </div>-->
+            </div>
+            <div class="item">
+                <img src="images/slide_02_2000x410.jpg" class="img2000_02" alt="">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/slide_03_2000x410.jpg" class="img2000_03" alt="">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+
+<!--/#header-->
+<section id="wjs-tese">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xe604;</i>
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保障</h4>
+                        <p>银联支付全程保障资金安全</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xf00cb;</i>
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">平台财产安全</h4>
+                        <p>由PICC保驾护航</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xe82b;</i>
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">资金安全</h4>
+                        <p>平安银行资金存管</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xe6e4;</i>
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">安全保障</h4>
+                        <p>独创八层安全保障机制</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xe691;</i>
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">筛选优质资产</h4>
+                        <p>对接鹏元征信系统</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <a class="media-left" href="#">
+                        <i class="iconfont">&#xe607;</i>
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">联合信息发布</h4>
+                        <p>与金融协会共同发布利率指数报告</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<section id="wjs-yuyue">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <i class="iconfont">&#xe677;</i>现在有<span style="color: red;font-size: 20px">254</span>人在排队，累计预约交易成功<span style="color: red;font-size: 24px">1204</span>次，交易金额累积达到<span style="color: red;font-size: 30px">10</span>亿。
+            </div>
+            <div class="col-md-5">
+                <i class="iconfont">&#xe615;</i>
+                <span>市场有风险，投资需谨慎</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="wjs-ty">
+    <div class="container">
+        <h1 class="text-center">我们精心为您推荐以下项目</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>“金润银通”体验标1323期</h4>
+                        <p>新客户<br>的投资体验产品 </p>
+                        <sup class="ps-dw">客户专享</sup>
+                    </div>
+                    <div class="panel-body text-center">
+                        <ul class="ul-box">
+                            <li>
+                                <strong>10%</strong>
+                                <p>测算年化收益率</p>
+                            </li>
+                            <li>
+                                <strong>1-3年</strong>
+                                <p>借款期限</p>
+                            </li>
+                            <li>
+                                <strong>20</strong>
+                                <p>已投人数</p>
+                            </li>
+                            <li>
+                                <div class="progress" title="没钱啦，就在“金润银通”贷款。" data-placement="bottom">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                        85%
+                                    </div>
+                                </div>
+                                <p>贷款成功率</p>
+                            </li>
+                        </ul>
+                        <a class="btn btn-itcast" href="contact.html">联系我们</a>
+                        <div class="text-itcast">最低金额15万元 最高贷款额100万元</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>“金润银通”体验标1323期</h4>
+                        <p>新客户<br>的投资体验产品 </p>
+                        <sup class="ps-dw">客户专享</sup>
+                    </div>
+                    <div class="panel-body text-center">
+                        <ul class="ul-box">
+                            <li>
+                                <strong>8%</strong>
+                                <p>测算年化收益率</p>
+                            </li>
+                            <li>
+                                <strong>1-3年</strong>
+                                <p>借款期限</p>
+                            </li>
+                            <li>
+                                <strong>10</strong>
+                                <p>已投人数</p>
+                            </li>
+                            <li>
+                                <div class="progress" title="没钱啦，就在“金润银通”贷款。" >
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                        70%
+                                    </div>
+                                </div>
+                                <p>贷款成功率</p>
+                            </li>
+                        </ul>
+                        <a class="btn btn-itcast" href="contact.html">联系我们</a>
+                        <div class="text-itcast">最低金额15万元 最高贷款额100万元</div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>体验标1323期</h4>
+                        <p>新客户<br>的投资体验产品 </p>
+                        <sup class="ps-dw">客户专享</sup>
+                    </div>
+                    <div class="panel-body text-center">
+                        <ul class="ul-box">
+                            <li>
+                                <strong>8%</strong>
+                                <p>测算年化收益率</p>
+                            </li>
+                            <li>
+                                <strong>10天</strong>
+                                <p>借款期限</p>
+                            </li>
+                            <li>
+                                <strong>10</strong>
+                                <p>已投人数</p>
+                            </li>
+                            <li>
+                                <div class="progress" title="没钱啦，就贷款。">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                        75%
+                                    </div>
+                                </div>
+                                <p>贷款成功率</p>
+                            </li>
+                        </ul>
+                        <a class="btn btn-itcast" href="contact.html">联系我们</a>
+                        <div class="text-itcast">最低金额15万元 最高贷款额100万元</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>体验标1323期</h4>
+                        <p>新客户<br>的投资体验产品 </p>
+                        <sup class="ps-dw">客户专享</sup>
+                    </div>
+                    <div class="panel-body text-center">
+                        <ul class="ul-box">
+                            <li>
+                                <strong>9%</strong>
+                                <p>测算年化收益率</p>
+                            </li>
+                            <li>
+                                <strong>1-3年</strong>
+                                <p>借款期限</p>
+                            </li>
+                            <li>
+                                <strong>10</strong>
+                                <p>已投人数</p>
+                            </li>
+                            <li>
+                                <div class="progress" title="没钱啦，就贷款。" data-placement="bottom">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                        80%
+                                    </div>
+                                </div>
+                                <p>贷款成功率</p>
+                            </li>
+                        </ul>
+                        <a class="btn btn-itcast" href="contact.html">联系我们</a>
+                        <div class="text-itcast">最低金额15万元 最高贷款额100万元</div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</section>
+<!--<section id="wjs-tab">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="nav-list1">
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">特别推荐</a></li>
+        <li><a href="#">微投资</a></li>
+        <li><a href="#">月月盈</a></li>
+        <li><a href="#">稳赢保</a></li>
+        <li><a href="#">海航通宝</a></li>
+        <li><a href="#">微金宝</a></li>
+        <li><a href="#">微消费</a></li>
+        <li><a href="#">微转让</a></li>
+    </ul>
+        </div>
+    </div>
+    </nav>
+
+
+</section>-->
+<section id="wjs-tab">
+    <div class="container">
+        <!-- Nav tabs -->
+        <div class="wapapp">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#list01" role="tab" data-toggle="tab">特别推荐</a></li>
+                <li><a href="#list02" role="tab" data-toggle="tab">月供贷</a></li>
+                <li><a href="#list03" role="tab" data-toggle="tab">保单贷</a></li>
+                <li><a href="#list04" role="tab" data-toggle="tab">工薪贷</a></li>
+                <li><a href="#list05" role="tab" data-toggle="tab">生意贷</a></li>
+                <li><a href="#list06" role="tab" data-toggle="tab">快捷贷</a></li>
+                <li><a href="#list07" role="tab" data-toggle="tab">个人消费贷</a></li>
+
+            </ul>
+        </div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="list01">
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-default panel-itcast">
+                        <div class="panel-heading text-center">
+                            <strong><br>利息：<br><p>"优质：7.7厘<br>
+                                普通：8.55厘"</p>
+                            </strong>
+                        </div>
+                        <div class="panel-body text-center">
+
+                            <img src="images/cc/pingan.png" height="50px"/>
+                            <p>平安银行【月供贷】</p>
+                            <div class="btn11">
+                                <a href="#">详情了解</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><div class="col-md-6 col-sm-6">
+                <div class="panel panel-default panel-itcast">
+                    <div class="panel-heading text-center">
+                        <strong><br>利息：<br><p>"受薪：9.8厘<br>
+                            自雇：1.18厘"</p>
+                        </strong>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="images/cc/max.png" height="50px"/>
+                        <p>大树金融【保单贷】</p>
+                        <div class="btn11">
+                            <a href="#">详情了解</a>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="col-md-6 col-sm-6">
+                <div class="panel panel-default panel-itcast">
+                    <div class="panel-heading text-center">
+                        <strong><br>利息：<br><p>"受薪：1.15厘<br>
+                            自雇：1.25厘"</p>
+                        </strong>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="images/cc/yyfax.png" height="50px"/>
+                        <p>友金所【保单贷】</p>
+                        <div class="btn11">
+                            <a href="#">详情了解</a>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="col-md-6 col-sm-6">
+                <div class="panel panel-default panel-itcast">
+                    <div class="panel-heading text-center">
+                        <strong><br>利息：<br><p>"7.6厘"</p>
+                        </strong>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="images/cc/hubei.png" height="50px"/>
+                        <p>湖北消费金融【月供贷】</p>
+                        <div class="btn11">
+                            <a href="#">详情了解</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--<div class="col-md-4 col-sm-6">
+                <div class="panel panel-default panel-itcast">
+                    <div class="panel-heading text-center">
+                        <strong><br>利息：<br><p>"优质：7.7厘<br>
+                            普通：8.55厘"</p>
+                        </strong>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="images/cc/pingan.jpg" height="60px"/>
+                        <h1>平安银行【月供贷】</h1>
+                    </div>
+                </div>
+            </div>
+           <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default panel-itcast">
+                    <div class="panel-heading text-center">
+                        <strong><br>利息：<br><p>"优质：7.7厘<br>
+                            普通：8.55厘"</p>
+                        </strong>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="images/cc/pingan.jpg" height="60px"/>
+                        <h1>平安银行【月供贷】</h1>
+                    </div>
+                </div>
+            </div>
+-->
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="list02">
+                <section class="zzsc">
+                    <div class="container" style="padding:30px 0">
+                        <div class="row">
+                            <div class="md-col-8">
+                                <div class="table-responsive table2excel" data-tableName="Test Table 1">
+                                    <table class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                        <!--<tr class="noExl">
+                                            <td class="danger">带<code>noExl不入表格</code></td>
+                                            <td class="danger">带<code>noExl不入表格</code></td>
+                                        </tr>-->
+                                        <tr>
+                                            <td class="warning"></td>
+                                            <td class="warning">利息</td>
+                                            <td class="warning">期限/年</td>
+                                            <td class="warning">负债核定</td>
+                                            <td class="warning">收入核定</td>
+                                            <td class="warning">额度</td>
+                                            <td class="warning">提前还款违约金</td>
+                                            <td class="warning">放款手续费</td>
+                                            <td class="warning">基本准入条件</td>
+                                            <td class="warning">禁入</td>
+                                            <td class="warning">征信要求</td>
+                                            <td class="warning">准备资料</td>
+                                            <td class="warning">备注</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="success">平安银行</td>
+                                            <td class="success">优质：7.7厘<br>普通：8.55厘</td>
+                                            <td class="success">1-3年</td>
+                                            <td class="success">不超75%</td>
+                                            <td class="success">月供金额10倍</td>
+                                            <td class="success">1、月供满6个月需深户：月供金额*20倍
+                                                <br>2、月供满12个月以上：月供金额*45倍
+                                                <br>3、本行月供12个月：60倍
+                                                <br>4、按揭3年以上：70倍</td>
+                                            <td class="success">5%</td>
+                                            <td class="success"></td>
+                                            <td class="success">在全国有按揭房<br>6个月以上或结<br>清一年内的房产。
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success">1、近两个月内征信查询不能超过4次；
+                                                <br>2、当前不能逾期，半年内不能有2，一年内不能有3，两年内不能有4；
+                                                <br>3、客户名下不能有任何小额公司的贷款。
+                                            </td>
+                                            <td class="success">身份证，平安银行卡
+                                            </td>
+                                            <td class="success"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="danger">大数金融
+                                            </td>
+                                            <td class="danger">受薪类：9.8厘
+                                                <br>自雇类：1.18分
+                                            </td>
+                                            <td class="danger">1-3年</td>
+                                            <td class="danger">不超75%</td>
+                                            <td class="danger">月供金额8倍</td>
+                                            <td class="danger">1、月供满6个月：
+                                                月供金额*30倍                                                                2、月供满12个月：                                                          月供金额*45倍        3、超高分客户78倍
+                                            </td>
+                                            <td class="danger">3%
+                                            </td>
+                                            <td class="danger">3%
+                                            </td>
+                                            <td class="danger">在全国有按揭房6个月以上或结清一年内的房产
+                                            </td>
+                                            <td class="danger"></td>
+                                            <td class="danger">1、近两个月内征信查询不能超过4次；
+                                                <br>2、当前不能逾期，半年内不能有2，一年内不能有3，两年内不能有4；
+                                                <br>3、客户名下不能有任何小额公司的贷款（高分客户一笔不低于5万可以接受）。微粒贷，蚂蚁花呗可接受
+                                            </td>
+                                            <td class="danger">身份证，华兴银行卡
+                                            </td>
+                                            <td class="danger"><br>惠州客户可以做<br>（其中惠东县、博罗县、龙门县、大亚湾开发区仅准入优良职业），而且惠州市的客户可认定为本地户籍，房产可认定为本地房产
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="success">华润银行
+                                            </td>
+                                            <td class="success">优质机关单位4.4厘
+                                                <br>优质非机关5厘，
+                                                <br>普通6.1厘
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success">普通 不超65%优质不超75%
+                                                %</td>
+                                            <td class="success">月供金额5倍</td>
+                                            <td class="success">月供金额*45倍（50万封顶）
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success"></td>
+                                            <td class="success">在全国有按揭房且按揭一年以上（只接受住房类按揭贷款的月供）
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success">1、近两个月内征信查询不能超过4次；
+                                                <br>2、一年内不能有4个1
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="danger">友金所
+                                            </td>
+                                            <td class="danger">受薪类：1.15分
+                                                <br>自雇类：1.25分
+                                            </td>
+                                            <td class="danger">1-3年</td>
+                                            <td class="danger">不超65%</td>
+                                            <td class="danger">月供金额8倍</td>
+                                            <td class="danger">"月供满3个月：30倍
+                                                <br>月供满6个月：36倍
+                                                <br>月供满12个月：55倍"
+                                            </td>
+                                            <td class="danger">5%
+                                            </td>
+                                            <td class="danger">1%
+                                            </td>
+                                            <td class="danger">在全国有按揭房3个月以上或结清一年内的房产
+                                            </td>
+                                            <td class="danger"></td>
+                                            <td class="danger">1、近两个月内征信查询不能超过4次；
+                                                <br>2、半年内不能有2，一年内不能有3，两年内不能有4；
+                                                <br>3、客户名下不能有任何小额公司的贷款。
+                                            </td>
+                                            <td class="danger">1、身份证
+                                                <br>2、社保卡（自雇不用）                                                                                3、北京银行卡
+                                            </td>
+                                            <td class="danger"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="success">北京银行
+
+                                            </td>
+                                            <td class="success">一年7.5厘
+                                                <br>两年7.7厘
+                                                <br>三年7.9厘"
+
+                                            <td class="success">1-3年</td>
+                                            <td class="success">不超75%</td>
+                                            <td class="success">月供金额8倍</td>
+                                            <td class="success">72*月供金额-信用卡总额-信用贷款额度
+                                            </td>
+                                            <td class="success">正常还款6个月后可申请，2%违约金
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success">广东省内房子有6个N，转按或抵押有1个N
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success">"当前没有逾期，2年内不得有3，全部贷款及信用卡不得有超过6个1
+                                                半年不超24次，单月不超4次，同一机构14天内查询多次只算一次，
+                                                近一个月最多查询4次，不包括本次"
+
+                                            </td>
+                                            <td class="success">
+                                            </td>
+                                            <td class="success">加加贷：按照房产的常值来批款。常值是指房产的价值-欠款金额=常值。
+                                                一般情况，30常值批10万，60万批20万，90批30万
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="danger">湖北消费金融
+                                            </td>
+                                            <td class="danger">7.6厘
+
+                                            </td>
+                                            <td class="danger">1-3年</td>
+                                            <td class="danger">不超70%</td>
+                                            <td class="danger">月供金额8倍</td>
+                                            <td class="danger">1、深房月供满6个月：
+                                                月供金额*30倍
+                                                2、深房月供满12个月：
+                                                月供金额*40倍
+                                            </td>
+                                            <td class="danger">3%
+                                            </td>
+                                            <td class="danger">2%</td>
+                                            <td class="danger">25-60周岁，现单位工作满半年（工龄5年），现单位工作满1年（工龄3年）或现经营场所经营满1年，营业执照注册满1年
+
+                                            </td>
+                                            <td class="danger">钢铁，有色金属，建材，船舶和煤炭
+                                            </td>
+                                            <td class="danger">2个月内不超过5次，当前无逾期，近2年不能有3，近2年不能有6个1
+
+                                            </td>
+                                            <td class="danger">身份证，工作收入证明或近半年流水，按揭合同或抵押合同，银行卡（中国，兴业，民生，光大，中信，广发，建行）
+
+                                            </td>
+                                            <td class="danger"></td>
+                                        </tr>
+                                        </tbody>
+                                        <tfoot>
+                                        <tr>
+                                            <td colspan="13" class="warning">以上数据仅供参考，具体以公司为准！</td>
+                                        </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="btn" class="btn btn-primary">点击这里将表格内容导出到excel中</button>
+                    </div>
+                </section>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="list03">
+                <section class="zzsc">
+                <div class="container" style="padding:30px 0">
+                    <div class="row">
+                        <div class="md-col-8">
+                            <div class="table-responsive table2excel" data-tableName="Test Table 1">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                    <!--<tr class="noExl">
+                                        <td class="danger">带<code>noExl不入表格</code></td>
+                                        <td class="danger">带<code>noExl不入表格</code></td>
+                                    </tr>-->
+                                    <tr>
+                                        <td class="warning"></td>
+                                        <td class="warning">利息</td>
+                                        <td class="warning">期限/年</td>
+                                        <td class="warning">负债核定</td>
+                                        <td class="warning">收入核定</td>
+                                        <td class="warning">额度</td>
+                                        <td class="warning">提前还款违约金</td>
+                                        <td class="warning">放款手续费</td>
+                                        <td class="warning">基本准入条件</td>
+                                        <td class="warning">禁入</td>
+                                        <td class="warning">征信要求</td>
+                                        <td class="warning">准备资料</td>
+                                        <td class="warning">备注</td>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="success">平安银行</td>
+                                        <td class="success">优质：7.7厘<br>普通：8.55厘</td>
+                                        <td class="success">1-3年</td>
+                                        <td class="success">不超75%</td>
+                                        <td class="success">月供金额10倍</td>
+                                        <td class="success">1、月供满6个月需深户：月供金额*20倍
+                                            <br>2、月供满12个月以上：月供金额*45倍
+                                            <br>3、本行月供12个月：60倍
+                                            <br>4、按揭3年以上：70倍</td>
+                                        <td class="success">5%</td>
+                                        <td class="success"></td>
+                                        <td class="success">在全国有按揭房<br>6个月以上或结<br>清一年内的房产。
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success">1、近两个月内征信查询不能超过4次；
+                                            <br>2、当前不能逾期，半年内不能有2，一年内不能有3，两年内不能有4；
+                                            <br>3、客户名下不能有任何小额公司的贷款。
+                                        </td>
+                                        <td class="success">身份证，平安银行卡
+                                        </td>
+                                        <td class="success"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="danger">大数金融
+                                        </td>
+                                        <td class="danger">受薪类：9.8厘
+                                            <br>自雇类：1.18分
+                                        </td>
+                                        <td class="danger">1-3年</td>
+                                        <td class="danger">不超75%</td>
+                                        <td class="danger">月供金额8倍</td>
+                                        <td class="danger">1、月供满6个月：
+                                            月供金额*30倍                                                                2、月供满12个月：                                                          月供金额*45倍        3、超高分客户78倍
+                                        </td>
+                                        <td class="danger">3%
+                                        </td>
+                                        <td class="danger">3%
+                                        </td>
+                                        <td class="danger">在全国有按揭房6个月以上或结清一年内的房产
+                                        </td>
+                                        <td class="danger"></td>
+                                        <td class="danger">1、近两个月内征信查询不能超过4次；
+                                            <br>2、当前不能逾期，半年内不能有2，一年内不能有3，两年内不能有4；
+                                            <br>3、客户名下不能有任何小额公司的贷款（高分客户一笔不低于5万可以接受）。微粒贷，蚂蚁花呗可接受
+                                        </td>
+                                        <td class="danger">身份证，华兴银行卡
+                                        </td>
+                                        <td class="danger"><br>惠州客户可以做<br>（其中惠东县、博罗县、龙门县、大亚湾开发区仅准入优良职业），而且惠州市的客户可认定为本地户籍，房产可认定为本地房产
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="success">华润银行
+                                        </td>
+                                        <td class="success">优质机关单位4.4厘
+                                            <br>优质非机关5厘，
+                                            <br>普通6.1厘
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success">普通 不超65%优质不超75%
+                                            %</td>
+                                        <td class="success">月供金额5倍</td>
+                                        <td class="success">月供金额*45倍（50万封顶）
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success"></td>
+                                        <td class="success">在全国有按揭房且按揭一年以上（只接受住房类按揭贷款的月供）
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success">1、近两个月内征信查询不能超过4次；
+                                            <br>2、一年内不能有4个1
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="danger">友金所
+                                        </td>
+                                        <td class="danger">受薪类：1.15分
+                                            <br>自雇类：1.25分
+                                        </td>
+                                        <td class="danger">1-3年</td>
+                                        <td class="danger">不超65%</td>
+                                        <td class="danger">月供金额8倍</td>
+                                        <td class="danger">"月供满3个月：30倍
+                                            <br>月供满6个月：36倍
+                                            <br>月供满12个月：55倍"
+                                        </td>
+                                        <td class="danger">5%
+                                        </td>
+                                        <td class="danger">1%
+                                        </td>
+                                        <td class="danger">在全国有按揭房3个月以上或结清一年内的房产
+                                        </td>
+                                        <td class="danger"></td>
+                                        <td class="danger">1、近两个月内征信查询不能超过4次；
+                                            <br>2、半年内不能有2，一年内不能有3，两年内不能有4；
+                                            <br>3、客户名下不能有任何小额公司的贷款。
+                                        </td>
+                                        <td class="danger">1、身份证
+                                            <br>2、社保卡（自雇不用）                                                                                3、北京银行卡
+                                        </td>
+                                        <td class="danger"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="success">北京银行
+
+                                        </td>
+                                        <td class="success">一年7.5厘
+                                            <br>两年7.7厘
+                                            <br>三年7.9厘"
+
+                                        <td class="success">1-3年</td>
+                                        <td class="success">不超75%</td>
+                                        <td class="success">月供金额8倍</td>
+                                        <td class="success">72*月供金额-信用卡总额-信用贷款额度
+                                        </td>
+                                        <td class="success">正常还款6个月后可申请，2%违约金
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success">广东省内房子有6个N，转按或抵押有1个N
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success">"当前没有逾期，2年内不得有3，全部贷款及信用卡不得有超过6个1
+                                            半年不超24次，单月不超4次，同一机构14天内查询多次只算一次，
+                                            近一个月最多查询4次，不包括本次"
+
+                                        </td>
+                                        <td class="success">
+                                        </td>
+                                        <td class="success">加加贷：按照房产的常值来批款。常值是指房产的价值-欠款金额=常值。
+                                            一般情况，30常值批10万，60万批20万，90批30万
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="danger">湖北消费金融
+                                        </td>
+                                        <td class="danger">7.6厘
+
+                                        </td>
+                                        <td class="danger">1-3年</td>
+                                        <td class="danger">不超70%</td>
+                                        <td class="danger">月供金额8倍</td>
+                                        <td class="danger">1、深房月供满6个月：
+                                            月供金额*30倍
+                                            2、深房月供满12个月：
+                                            月供金额*40倍
+                                        </td>
+                                        <td class="danger">3%
+                                        </td>
+                                        <td class="danger">2%</td>
+                                        <td class="danger">25-60周岁，现单位工作满半年（工龄5年），现单位工作满1年（工龄3年）或现经营场所经营满1年，营业执照注册满1年
+
+                                        </td>
+                                        <td class="danger">钢铁，有色金属，建材，船舶和煤炭
+                                        </td>
+                                        <td class="danger">2个月内不超过5次，当前无逾期，近2年不能有3，近2年不能有6个1
+
+                                        </td>
+                                        <td class="danger">身份证，工作收入证明或近半年流水，按揭合同或抵押合同，银行卡（中国，兴业，民生，光大，中信，广发，建行）
+
+                                        </td>
+                                        <td class="danger"></td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                        <td colspan="13" class="warning">以上数据仅供参考，具体以公司为准！</td>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btn1" class="btn btn-primary">点击这里将表格内容导出到excel中</button>
+                </div>
+            </section>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="list04">
+                <section class="zzsc">
+                <div class="container" style="padding:30px 0">
+                    <div class="row">
+                        <div class="md-col-8">
+                            <div class="table-responsive table2excel" data-tableName="Test Table 1">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                    <!--<tr class="noExl">
+                                        <td class="danger">带<code>noExl不入表格</code></td>
+                                        <td class="danger">带<code>noExl不入表格</code></td>
+                                    </tr>-->
+                                    <tr>
+                                        <td class="warning"></td>
+                                        <td class="warning">利息</td>
+                                        <td class="warning">期限/年</td>
+                                        <td class="warning">负债核定</td>
+                                        <td class="warning">收入核定</td>
+                                        <td class="warning">额度</td>
+                                        <td class="warning">提前还款违约金</td>
+                                        <td class="warning">放款手续费</td>
+                                        <td class="warning">基本准入条件</td>
+                                        <td class="warning">禁入</td>
+                                        <td class="warning">征信要求</td>
+                                        <td class="warning">准备资料</td>
+                                        <td class="warning">备注</td>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="success">平安银行</td>
+                                        <td class="success">优质：7.7厘<br>普通：8.55厘</td>
+                                        <td class="success">1-3年</td>
+                                        <td class="success">不超75%</td>
+                                        <td class="success">月供金额10倍</td>
+                                        <td class="success">1、月供满6个月需深户：月供金额*20倍
+                                            <br>2、月供满12个月以上：月供金额*45倍
+                                            <br>3、本行月供12个月：60倍
+                                            <br>4、按揭3年以上：70倍</td>
+                                        <td class="success">5%</td>
+                                        <td class="success"></td>
+                                        <td class="success">在全国有按揭房<br>6个月以上或结<br>清一年内的房产。
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success">1、近两个月内征信查询不能超过4次；
+                                            <br>2、当前不能逾期，半年内不能有2，一年内不能有3，两年内不能有4；
+                                            <br>3、客户名下不能有任何小额公司的贷款。
+                                        </td>
+                                        <td class="success">身份证，平安银行卡
+                                        </td>
+                                        <td class="success"></td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                        <td colspan="13" class="warning">以上数据仅供参考，具体以公司为准！</td>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btn2" class="btn btn-primary">点击这里将表格内容导出到excel中</button>
+                </div>
+            </section>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="list05">
+                <section class="zzsc">
+                    <div class="container" style="padding:30px 0">
+                        <div class="row">
+                            <div class="md-col-8">
+                                <div class="table-responsive table2excel" data-tableName="Test Table 1">
+                                    <table class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                        <!--<tr class="noExl">
+                                            <td class="danger">带<code>noExl不入表格</code></td>
+                                            <td class="danger">带<code>noExl不入表格</code></td>
+                                        </tr>-->
+                                        <tr>
+                                            <td class="warning"></td>
+                                            <td class="warning">利息</td>
+                                            <td class="warning">期限/年</td>
+                                            <td class="warning">负债核定</td>
+                                            <td class="warning">收入核定</td>
+                                            <td class="warning">额度</td>
+                                            <td class="warning">提前还款违约金</td>
+                                            <td class="warning">放款手续费</td>
+                                            <td class="warning">基本准入条件</td>
+                                            <td class="warning">禁入</td>
+                                            <td class="warning">征信要求</td>
+                                            <td class="warning">准备资料</td>
+                                            <td class="warning">备注</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="success">招商银行
+                                            </td>
+                                            <td class="success">先息后本，按天计息随借随还1分
+
+                                            </td>
+                                            <td class="success">要求客户信用贷款不超过40万，否则再次申请有影响，主要看客户的资产，对于对公流水的要求不大
+
+                                            </td>
+                                            <td class="success">
+                                            </td>
+                                            <td class="success">20-100万，
+                                                有第二套房子+5万
+                                                有第三套房子+5万
+                                                子女在深学习生活+5万
+                                                公司购买社保5人以上+5万
+                                                租金以转账形式或能开具发票证明"
+                                            </td>
+                                            <td class="success">
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success">1.有房：夫妻名下在深圳有按揭或红本房
+                                                2.有家：（非深户必须已婚，深户可未婚）夫妻双方签字
+                                                3.有企业：需要企业注册营业执照2年以上（企业法人或前3大股东）
+                                            </td>
+                                            <td class="success">
+
+
+                                            </td>
+                                            <td class="success">房地产，金融，美容美发，物业，采矿业，公共管理，社会组织
+                                            </td>
+                                            <td class="success">
+                                            </td>
+                                            <td class="success">夫妻双方身份证，结婚证，户口本，房产证复印件，营业执照，组织机构代码，税务登记证，开户许可证，近6个月个人银行流水，办公场地租赁合同（加租金需租赁合同与近6个月租金转账流水）
+
+
+                                            </td>
+                                            <td class="success">1.如果是按揭的需3个月以上才可做
+                                                2.夫妻双方出门签字
+                                                3.贷款额度在50万以上需打到第三方账户
+                                                4.批款50万以上，全部等额还款
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        <tfoot>
+                                        <tr>
+                                            <td colspan="13" class="warning">以上数据仅供参考，具体以公司为准！</td>
+                                        </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="btn3" class="btn btn-primary">点击这里将表格内容导出到excel中</button>
+                    </div>
+                </section>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="list06">
+                <section class="zzsc">
+                <div class="container" style="padding:30px 0">
+                    <div class="row">
+                        <div class="md-col-8">
+                            <div class="table-responsive table2excel" data-tableName="Test Table 1">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                    <!--<tr class="noExl">
+                                        <td class="danger">带<code>noExl不入表格</code></td>
+                                        <td class="danger">带<code>noExl不入表格</code></td>
+                                    </tr>-->
+                                    <tr>
+                                        <td class="warning"></td>
+                                        <td class="warning">利息</td>
+                                        <td class="warning">期限/年</td>
+                                        <td class="warning">负债核定</td>
+                                        <td class="warning">收入核定</td>
+                                        <td class="warning">额度</td>
+                                        <td class="warning">提前还款违约金</td>
+                                        <td class="warning">放款手续费</td>
+                                        <td class="warning">基本准入条件</td>
+                                        <td class="warning">禁入</td>
+                                        <td class="warning">征信要求</td>
+                                        <td class="warning">准备资料</td>
+                                        <td class="warning">备注</td>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="success">农村商业
+
+                                        </td>
+                                        <td class="success">先息后本，1分,等额本息5.5厘
+
+                                        </td>
+                                        <td class="success">授信3年，一年回本一次，回本时间在3天左右可拿出
+                                        </td>
+                                        <td class="success">非按揭贷款不超过200万（他行信用贷款余额不超过50万，信用卡不超过20万）
+
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success">2-20万（查询客户社保缴纳基数以及养老，医疗余额）
+
+                                        </td>
+                                        <td class="success"></td>
+                                        <td class="success"></td>
+                                        <td class="success">深房（红本或按揭）深户连续缴纳社保1年以上，非深户连续缴纳3年以上
+
+
+                                        </td>
+                                        <td class="success">
+                                        </td>
+                                        <td class="success">2个月内不可查询征信4次
+
+                                        </td>
+                                        <td class="success">身份证，房产证复印件（房产证编号查档），社保卡
+
+
+
+
+                                        </td>
+                                        <td class="success">1.军产房，绿本房，农民房有回执单也可做一张6万（可两张叠加）2.信用卡小于5张且6个月使用平均额度在15万左右
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                        <td colspan="13" class="warning">以上数据仅供参考，具体以公司为准！</td>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btn4" class="btn btn-primary">点击这里将表格内容导出到excel中</button>
+                </div>
+            </section>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="list07">
+                <section class="zzsc">
+                    <div class="container" style="padding:30px 0">
+                        <div class="row">
+                            <div class="md-col-8">
+                                <div class="table-responsive table2excel" data-tableName="Test Table 1">
+                                    <table class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                        <!--<tr class="noExl">
+                                            <td class="danger">带<code>noExl不入表格</code></td>
+                                            <td class="danger">带<code>noExl不入表格</code></td>
+                                        </tr>-->
+                                        <tr>
+                                            <td class="warning"></td>
+                                            <td class="warning">利息</td>
+                                            <td class="warning">期限/年</td>
+                                            <td class="warning">负债核定</td>
+                                            <td class="warning">收入核定</td>
+                                            <td class="warning">额度</td>
+                                            <td class="warning">提前还款违约金</td>
+                                            <td class="warning">放款手续费</td>
+                                            <td class="warning">基本准入条件</td>
+                                            <td class="warning">禁入</td>
+                                            <td class="warning">征信要求</td>
+                                            <td class="warning">准备资料</td>
+                                            <td class="warning">备注</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="success">招商银行
+                                            </td>
+                                            <td class="success">随借随还1分，（每月15扣息）
+                                            </td>
+                                            <td class="success">3年</td>
+                                            <td class="success">信用卡总额不超过50万，信用贷款不超过40万
+                                                </td>
+                                            <td class="success"></td>
+                                            <td class="success">5-30万（5万起依次叠加）
+                                                <br>粤B家庭自用非运营性车+3万
+                                                <br>子女在深学习生活+3万
+                                                <br>连续缴纳一年以上住房公积金+3万
+                                                <br>连续缴纳一年以上医保+3万
+                                                <br>夫妻名下2、3套以上房产且面积在70平以上+10、+20万
+                                                <br>招行近6个月平均日存款10万以上+5万或日存款20万以上+10万"
+                                            </td>
+                                            <td class="success"></td>
+                                            <td class="success"></td>
+                                            <td class="success">1.有房：夫妻名下在深圳有按揭或红本房
+                                                <br>2.有家：必须已婚且夫妻双方出面签字
+                                                <br>3.有工作：夫妻双方一人必须连续缴纳社保2年以上"
+
+                                            </td>
+                                            <td class="success">房地产，金融，美容美发，物业，采矿业，公共管理，社会组织
+                                            </td>
+                                            <td class="success">
+                                            </td>
+                                            <td class="success">夫妻双方身份证，结婚证，户口本，房产证复印件，社保卡，公积金卡，车辆行驶证，学生证
+
+                                            </td>
+                                            <td class="success"></td>
+                                        </tr>
+                                        </tbody>
+                                        <tfoot>
+                                        <tr>
+                                            <td colspan="13" class="warning">以上数据仅供参考，具体以公司为准！</td>
+                                        </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="btn5" class="btn btn-primary">点击这里将表格内容导出到excel中</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-2">
+                <h3>金润银通</h3>
+            </div>
+            <div class="col-md-2">
+                <ul class="nav nav-pills nav-stacked" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">公司新闻</a></li>
+                    <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">行业资讯</a></li>
+                    <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">银行政策</a></li>
+                    <li role="presentation"><a href="#settings" role="tab" data-toggle="tab">官网公告</a></li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <!--&lt;!&ndash; Tab panes &ndash;&gt;-->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">
+                        <ul>
+                            <li><a href="#">1.【国际在线】月供贷：股权质押或成互金资产端新走向</a></li>
+                            <li><a href="#">2.【消息】获上市企业、国有基金同时注资，强者同行</a></li>
+                            <li><a href="#">3.【消息】2016年11月7日深圳市前海金润银通金融控股有限公司平台系统升级维护</a></li>
+                            <li><a href="#">4.【消息】获上市企业 国有基金同时注资 微金所与强者同行</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile"><ul>
+                        <li><a href="#">1.【国际在线】月供贷：股权质押或成互金资产端新走向</a></li>
+                        <li><a href="#">2.【消息】获上市企业、国有基金同时注资，强者同行</a></li>
+                        <li><a href="#">3.【消息】2016年11月7日深圳市前海金润银通金融控股有限公司平台系统升级维护</a></li>
+                        <li><a href="#">4.【消息】获上市企业 国有基金同时注资 微金所与强者同行</a></li>
+                        <li><a href="#">5.【消息】一周还款公告2016年10月31日-11月6日</a></li>
+
+                    </ul></div>
+                    <div role="tabpanel" class="tab-pane" id="messages"><ul>
+                        <li><a href="#">1.【国际在线】月供贷：股权质押或成互金资产端新走向</a></li>
+                        <li><a href="#">2.【消息】获上市企业、国有基金同时注资，强者同行</a></li>
+                        <li><a href="#">3.【消息】2016年11月7日深圳市前海金润银通金融控股有限公司平台系统升级维护</a></li>
+                        <li><a href="#">5.【消息】一周还款公告2016年10月31日-11月6日</a></li>
+                        <li><a href="#">6.【消息】深圳市前海金润银通金融控股有限公司金融产品投资信托计划成立</a></li>
+
+                    </ul></div>
+                    <div role="tabpanel" class="tab-pane" id="settings"><ul>
+                        <li><a href="#">1.【国际在线】月供贷：股权质押或成互金资产端新走向</a></li>
+                        <li><a href="#">2.【消息】获上市企业、国有基金同时注资，强者同行</a></li>
+                        <li><a href="#">3.【消息】2016年11月7日深圳市前海金润银通金融控股有限公司平台系统升级维护</a></li>
+                        <li><a href="#">4.【消息】获上市企业 国有基金同时注资 微金所与强者同行</a></li>
+                        <li><a href="#">7.【消息】2016年10月31日深圳市前海金润银通金融控股有限公司平台系统升级维护</a></li>
+                    </ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container text-center visible-md visible-lg">
+<div id="bg">
+
+    <div id="box">
+        <div class="picbox">
+            <ul class="piclist mainlist">
+                <li><img src="images/bb/11702.jpg" width="220" height="105"  alt=""/></li>
+                <li><img src="images/bb/11703.jpg" width="220" height="105"  alt=""/></li>
+                <li><img src="images/bb/11704.jpg" width="220" height="105"  alt=""/></li>
+                <li><img src="images/bb/11705.jpg" width="220" height="105"  alt=""/></li>
+                <li><img src="images/bb/11706.jpg" width="220" height="105"  alt=""/></li>
+                <li><img src="images/bb/11707.jpg" width="220" height="105"  alt=""/></li>
+                <li><img src="images/bb/11708.jpg" width="220" height="105"  alt=""/></li>
+                <li><img src="images/bb/11709.jpg" width="220" height="105"  alt=""/></li>
+            </ul>
+            <ul class="piclist swaplist"></ul>
+        </div>
+        <div class="og_prev"></div>
+        <div class="og_next"></div>
+    </div>
+</div>
+    </div>
+<div class="mian" id="hw-date1">
+    <div class="container text-center">
+        <h1 class="title">诚信合作 ／ 迈向双赢</h1>
+        <br>
+    </div>
+</div>
+
+
+<div class="r1 container text-center">
+    <div class="cover-container" >
+        <!-- share model -->
+        <div class="share-model">
+            <ul class="clearfix">
+                <li><a href="#" title="在线客服" class="service-online" target="_blank">在线客服</a></li>
+                <li><a href="#" title="问题反馈" class="question-guide" target="_blank">问题反馈</a></li>
+                <li><a href="#" title="通行证查询" class="privilege-benefit" target="_blank">通行证查询</a></li>
+                <li class="blank-space"></li>
+                <li><a href="#" title="微博" class="link-microblogging" target="_blank">微博</a></li>
+                <li class="wechat">
+                    <a href="javascript:;" class="link-wechat">微信
+                        <div class="wechat-tip">
+                            <img src="images/ff/wechat.png" alt="微信二维码">
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#" title="论坛" class="link-forum" target="_blank">论坛</a></li>
+                <span class="download-advance" ></span>
+            </ul>
+        </div>
+    </div>
+    <div class="row1">
+        <div class="col-md-2">
+            <h3>关于我们</h3>
+            <a href="#">公司简介</a><br>
+            <a href="#">社会责任</a><br>
+            <a href="#">企业关系</a><br>
+            <a href="#">加入我们</a>
+        </div>
+        <div class="col-md-4">
+            <h3>帮助中心</h3>
+            <a href="#">隐私保密</a><br>
+            <a href="#">网站声明</a><br>
+            <a href="#">网站地图</a><br>
+            <a href="#">联系我们</a>
+        </div>
+        <div class="col-md-3">
+            <h3>微信公众号</h3>
+            <img src="images/weixin.png" width="80px">
+        </div>
+        <div class="col-md-3">
+
+            <img src="images/logo.png" width="100px"><br>
+            <p>All Content © 2017 Drop Bags. All Rights Reserved|<a href="#">备案号：粤ICP备222222222号</a></p>
+        </div>
+    </div>
+</div>
+
+<!--<div class="mian" id="hw-date2">
+    <div class="r2 container text-center">
+        <span>All Content © 2017 Drop Bags. All Rights Reserved|备案号：粤ICP备222222222号</span>
+    </div>
+</div>-->
+
+
+
+
+<div class="container text-center visible-md visible-lg">
+<div class="yb_conct">
+    <div class="yb_bar">
+        <ul>
+
+            <li class="yb_phone">4008-336-366</li>
+            <li class="yb_QQ">
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1269286430&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1269286430:52" alt="即刻发送您的需求" title="即刻发送您的需求"/>在线咨询</a>
+            </li>
+            <li class="yb_ercode" style="height:53px;">微信二维码 <br>
+                <img class="hd_qr" src="images/weixin.png" width="185" alt="关注你附近"> </li>
+            <li id="gotop">返回顶部</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--百度分享-->
+<script>
+    window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"0","bdPos":"right","bdTop":"100"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script src="js/mian.js"></script>
+
+<script src="js/jquery.table2excel.js"></script>
+<script>
+    $(function() {
+        $("#btn").click(function(){
+            $(".table2excel").table2excel({
+                exclude: ".noExl",
+                name: "Excel Document Name",
+                filename: "金润银通——月供贷",
+                exclude_img: true,
+                exclude_links: true,
+                exclude_inputs: true
+            });
+        });
+
+    });
+</script>
+<script>
+    $(function() {
+        $("#btn1").click(function(){
+            $(".table2excel").table2excel({
+                exclude: ".noExl",
+                name: "Excel Document Name",
+                filename: "金润银通——保单贷",
+                exclude_img: true,
+                exclude_links: true,
+                exclude_inputs: true
+            });
+        });
+
+    });
+</script>
+<script>
+    $(function() {
+        $("#btn2").click(function(){
+            $(".table2excel").table2excel({
+                exclude: ".noExl",
+                name: "Excel Document Name",
+                filename: "金润银通——工薪贷",
+                exclude_img: true,
+                exclude_links: true,
+                exclude_inputs: true
+            });
+        });
+
+    });
+</script>
+<script>
+    $(function() {
+        $("#btn3").click(function(){
+            $(".table2excel").table2excel({
+                exclude: ".noExl",
+                name: "Excel Document Name",
+                filename: "金润银通——生意贷",
+                exclude_img: true,
+                exclude_links: true,
+                exclude_inputs: true
+            });
+        });
+
+    });
+</script>
+<script>
+    $(function() {
+        $("#btn4").click(function(){
+            $(".table2excel").table2excel({
+                exclude: ".noExl",
+                name: "Excel Document Name",
+                filename: "金润银通——快捷贷",
+                exclude_img: true,
+                exclude_links: true,
+                exclude_inputs: true
+            });
+        });
+
+    });
+</script>
+<script>
+    $(function() {
+        $("#btn5").click(function(){
+            $(".table2excel").table2excel({
+                exclude: ".noExl",
+                name: "Excel Document Name",
+                filename: "金润银通——个人消费贷",
+                exclude_img: true,
+                exclude_links: true,
+                exclude_inputs: true
+            });
+        });
+
+    });
+</script>
+<canvas id="canvas" width="1221" height="223" ></canvas>
+
+
+
+<script>
+
+    window.requestAnimFrame = ( function() {
+        return window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                function( callback ) {
+                    window.setTimeout( callback, 1000 / 60 );
+                };
+    })();
+
+    var canvas = document.getElementById( 'canvas' ),
+            ctx = canvas.getContext( '2d' ),
+            // full screen dimensions
+            cw = window.innerWidth,
+            ch = window.innerHeight,
+
+            fireworks = [],
+
+            particles = [],
+
+            hue = 110,//120
+
+            limiterTotal = 20,
+            limiterTick = 0,
+
+            timerTotal = 85,
+            timerTick = 0,
+            mousedown = false,
+
+            mx,
+
+            my;
+
+
+    canvas.width = cw;
+    canvas.height = ch;
+    onlyTime = 0;
+
+    function random( min, max ) {
+        return Math.random() * ( max - min ) + min;
+    }
+
+
+    function calculateDistance( p1x, p1y, p2x, p2y ) {
+        var xDistance = p1x - p2x,
+                yDistance = p1y - p2y;
+        return Math.sqrt( Math.pow( xDistance, 2 ) + Math.pow( yDistance, 2 ) );
+    }
+
+
+    function Firework( sx, sy, tx, ty ) {
+
+        this.x = sx;
+        this.y = sy;
+
+        this.sx = sx;
+        this.sy = sy;
+
+        this.tx = tx;
+        this.ty = ty;
+
+        this.distanceToTarget = calculateDistance( sx, sy, tx, ty );
+        this.distanceTraveled = 0;
+
+        this.coordinates = [];
+        this.coordinateCount = 3;
+
+        while( this.coordinateCount-- ) {
+            this.coordinates.push( [ this.x, this.y ] );
+        }
+        this.angle = Math.atan2( ty - sy, tx - sx );
+        this.speed = 18;//20
+        this.acceleration = 0.99;//0.988
+        this.brightness = random( 20, 50 );//30,60
+
+        this.targetRadius = 2;//1
+    }
+
+    Firework.prototype.update = function( index ) {
+
+        this.coordinates.pop();
+
+        this.coordinates.unshift( [ this.x, this.y ] );
+
+
+        if( this.targetRadius < 8 ) {
+            this.targetRadius += 0.3;
+        } else {
+            this.targetRadius = 1;
+        }
+
+
+        this.speed *= this.acceleration;
+
+
+        var vx = Math.cos( this.angle ) * this.speed,
+                vy = Math.sin( this.angle ) * this.speed;
+
+        this.distanceTraveled = calculateDistance( this.sx, this.sy, this.x + vx, this.y + vy );
+
+        if( this.distanceTraveled >= this.distanceToTarget ) {
+            createParticles( this.tx, this.ty );
+
+            fireworks.splice( index, 1 );
+        } else {
+
+            this.x += vx;
+            this.y += vy;
+        }
+    }
+
+    Firework.prototype.draw = function() {
+        ctx.beginPath();
+
+        ctx.moveTo( this.coordinates[ this.coordinates.length - 1][ 0 ], this.coordinates[ this.coordinates.length - 1][ 1 ] );
+        ctx.lineTo( this.x, this.y );
+        ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
+
+        ctx.stroke();
+
+        ctx.beginPath();
+
+        ctx.stroke();
+    }
+
+    function Particle( x, y,spd ) {
+        this.x = x;
+        this.y = y;
+
+        this.coordinates = [];
+        this.coordinateCount = 3;
+        while( this.coordinateCount-- ) {
+            this.coordinates.push( [ this.x, this.y ] );
+        }
+
+        this.angle = random( 0, Math.PI * 2 );
+
+        this.speed = random( 1, spd );
+
+        this.friction = 0.95;
+
+        this.gravity = 1;
+
+        this.hue = random( hue - 20, hue + 20 );
+        this.brightness = random( 50, 80 );
+        this.alpha = 1;
+
+        this.decay = random( 0.015, 0.035 );
+    }
+
+    Particle.prototype.update = function( index ) {
+
+        this.coordinates.pop();
+
+        this.coordinates.unshift( [ this.x, this.y ] );
+
+        this.speed *= this.friction;
+
+        this.x += Math.cos( this.angle ) * this.speed;
+        this.y += Math.sin( this.angle ) * this.speed + this.gravity;
+        this.alpha -= this.decay;
+
+
+        if( this.alpha <= this.decay ) {
+            particles.splice( index, 1 );
+        }
+    }
+
+    Particle.prototype.draw = function() {
+        ctx. beginPath();
+        // move to the last tracked coordinates in the set, then draw a line to the current x and y
+        ctx.moveTo( this.coordinates[ this.coordinates.length - 1 ][ 0 ], this.coordinates[ this.coordinates.length - 1 ][ 1 ] );
+        ctx.lineTo( this.x, this.y );
+        ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')';
+        //ctx.strokeStyle = color();
+        ctx.stroke();
+    }
+
+    function color(){
+        var _color = Math.ceil(Math.random()*16777215).toString(16);
+        while(_color.length<6){
+            _color = "0"+_color;
+        }
+        return "#"+_color;
+    }
+
+
+    function createParticles( x, y ) {
+        var particleCount = 60;
+        var spd = random(3,20);
+        while( particleCount-- ) {
+            particles.push( new Particle( x, y,spd ) );
+        }
+    }
+
+
+    function loop() {
+        onlyTime++;
+        //alert(i);
+        var lp = requestAnimFrame( loop );
+        if(onlyTime == 500){//2240
+            $("canvas").fadeOut();   /*关闭烟花*/
+        }
+
+
+        hue += 0.5;
+        ctx.globalCompositeOperation = 'destination-out';
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+        ctx.fillRect( 0, 0, cw, ch );
+        ctx.globalCompositeOperation = 'lighter';
+        var i = fireworks.length;
+        while( i-- ) {
+            fireworks[ i ].draw(color());
+            hue += 0.5;
+            fireworks[ i ].update( i );
+        }
+        var i = particles.length;
+        while( i-- ) {
+            particles[ i ].draw();
+            hue += 0.5;
+            particles[ i ].update( i );
+        }
+        if( timerTick >= timerTotal ) {
+            if( !mousedown ) {
+                fireworks.push( new Firework( random( cw*2/5, cw*3/5 ), ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+                fireworks.push( new Firework( random( cw*2/5, cw*3/5 ), ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+                fireworks.push( new Firework( random( cw*2/5, cw*3/5 ), ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+                fireworks.push( new Firework( random( cw*2/5, cw*3/5 ), ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+                fireworks.push( new Firework( random( cw*2/5, cw*3/5 ), ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+                fireworks.push( new Firework( random( cw*2/5, cw*3/5 ), ch, random( 0, cw ), random( 0, ch / 2 ) ) );
+                timerTick = 0;
+            }
+        } else {
+            timerTick++;
+        }
+        if( limiterTick >= limiterTotal ) {
+            if( mousedown ) {
+                fireworks.push( new Firework( cw / 2, ch, mx, my ) );
+                limiterTick = 0;
+            }
+        } else {
+            limiterTick++;
+        }
+    }
+    canvas.addEventListener( 'mousemove', function( e ) {
+        mx = e.pageX - canvas.offsetLeft;
+        my = e.pageY - canvas.offsetTop;
+    });
+    canvas.addEventListener( 'mousedown', function( e ) {
+        e.preventDefault();
+        mousedown = true;
+    });
+
+    canvas.addEventListener( 'mouseup', function( e ) {
+        e.preventDefault();
+        mousedown = false;
+    });
+    var st = 0;
+    window.onload = init;
+    function onL(){
+        st = setInterval(stop,1000);
+    }
+    function stop(){
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDate();
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        if(minutes == 22){
+            loop();
+            clearInterval(st);
+        }
+    };
+
+    function init(){
+        loop();
+    }
+</script>
+
+
+</body>
+</html>
